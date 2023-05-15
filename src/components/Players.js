@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Players } from '../shared/ListOfPlayers'
-export default class player extends Component {
-    render() {
+export default function player() {
+    
         return (
             <div className="container">
                 {Players.map((player) => (
@@ -17,5 +17,5 @@ export default class player extends Component {
                 
             </div>
         )
-    }
+    
 }
